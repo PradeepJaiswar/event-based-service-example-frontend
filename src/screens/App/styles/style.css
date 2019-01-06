@@ -1,0 +1,91 @@
+/* 
+* Image list and header 
+*/
+* {
+  box-sizing: border-box;
+}
+
+.header, .imglist {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* 
+* upload file input and upload button 
+*/
+.upload-btn {
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #50AD55;
+  color: #fff;
+}
+.file-upload {
+    text-align: center;
+    display: block;
+    width: 30%;
+    height: 34px;
+    padding: 0 12px 12px 0px;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+::-webkit-file-upload-button {
+  color: black;
+  background-color: #50AD55;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 32px;
+  height: 50px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 0 12px 12px 10px;
+}

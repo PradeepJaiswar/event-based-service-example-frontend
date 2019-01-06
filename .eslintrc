@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "react/require-extension": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": "off",
+    "import/no-extraneous-dependencies" : "off",
+    "jsx-a11y/img-has-alt" : "off",
+    "linebreak-style": "off",
+    "max-len": "off"
+  },
+  "env": {
+    "browser": true,
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
