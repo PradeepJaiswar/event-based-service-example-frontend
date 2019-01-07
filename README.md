@@ -1,7 +1,18 @@
 # Open Table Exercise Frontend
 
-## Prerequisites
+### Client application fo uploading image on AWS S3 bucket and listing the resized images
 
+## Demo
+For demo visit http://13.126.151.86/
+
+## Repository Practices
+
+* Development folllows [git-flow](http://nvie.com/posts/a-successful-git-branching-model/)
+* Babel is user for ES6 and ES7 code compilation
+* All development should take advantage of ES6 and ES7
+* Follow [Fractal Project Structure](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure)
+
+## Prerequisites
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
@@ -10,7 +21,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone https://github.com/PradeepJaiswar/open-table-exercise-frontend.git` this repository
-* change into the new directory
+* change into the open-table-exercise-frontend directory
 * `npm install`
 
 ## Usage
@@ -18,3 +29,21 @@ You will need the following things properly installed on your computer.
 `npm start`
 
 Visit [http://localhost:7770/](http://localhost:7770/)
+
+## Test
+
+TODO
+
+## Build
+
+`npm run build`
+
+## Backend Services
+You also need to setup backend services require to connect to AWS S3 bucket, upload and resize.
+Follow https://github.com/PradeepJaiswar/open-table-exercise-backend for setting up  backend services
+
+
+
+
+
+
