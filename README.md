@@ -13,10 +13,9 @@ For demo visit http://13.126.151.86/
 * Follow [Fractal Project Structure](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure)
 
 ## Prerequisites
-You will need the following things properly installed on your computer.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+* Installed [Git](http://git-scm.com/)
+* Installed [Node.js](http://nodejs.org/) (with NPM)
 
 ## Installation
 
@@ -24,7 +23,7 @@ You will need the following things properly installed on your computer.
 * change into the open-table-exercise-frontend directory
 * `npm install`
 
-## Usage
+## Run
 
 `npm start`
 
