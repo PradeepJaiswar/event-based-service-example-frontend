@@ -7,6 +7,7 @@ class ImageUploader extends React.Component {
     super(props, context);
     this.state = {
       file: null,
+      disabledButton: false,
     };
     this.onFormSubmit = this.onFormSubmit.bind(this);
     this.onChange = this.onChange.bind(this);
@@ -26,12 +27,14 @@ class ImageUploader extends React.Component {
     if (this.state.file) {
       const formData = new FormData();
       formData.append('file', this.state.file);
+      this.setState({ disabledButton: true });
       this.props.uploadImage(formData, (response) => {
         if (response) {
           notify.show('Image uploaded successfully. Plesae wait images resizing is in progress ', 'success', 3000);
         } else {
           notify.show('There was some problem! Try again', 'error', 3000);
         }
+        this.setState({ disabledButton: false });
       });
     } else {
       notify.show('Please select image file for upload', 'error', 3000);
@@ -43,7 +46,7 @@ class ImageUploader extends React.Component {
         <form onSubmit={this.onFormSubmit}>
           <h1>Upload File & Resize Demo</h1>
           <input type="file" name="uploadeFiile" className="file-upload" onChange={this.onChange} />
-          <button type="submit" className="upload-btn" >Upload</button>
+          <button disabled={this.state.disabledButton} type="submit" className="upload-btn" >Upload</button>
         </form>
         <Notifications />
       </div>
