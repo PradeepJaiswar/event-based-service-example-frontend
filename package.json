@@ -7,7 +7,7 @@
     "lint": "eslint './src/**/*.js'",
     "start": "npm run && node devServer.js",
     "clean": "rimraf dist",
-    "build:webpack": "NODE_ENV=production webpack --mode production --config webpack.config.dev.js",
+    "build:webpack": "npm run clean && NODE_ENV=production webpack --mode production --config webpack.config.dev.js",
     "build": "npm run clean && npm run build:webpack"
   },
   "pre-push": [
@@ -67,8 +67,8 @@
     "redbox-react": "^1.3.0",
     "style-loader": "^0.13.2",
     "uglifyjs-webpack-plugin": "^1.2.5",
-    "webpack": "^4.9.1",
-    "webpack-cli": "^2.1.4",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
     "webpack-dev-middleware": "^3.1.3",
     "webpack-hot-middleware": "^2.12.2"
   }
