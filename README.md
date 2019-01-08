@@ -7,7 +7,6 @@ For demo visit http://13.126.151.86/
 
 ## Repository Practices
 
-* Development folllows [git-flow](http://nvie.com/posts/a-successful-git-branching-model/)
 * Babel is user for ES6 and ES7 code compilation
 * All development should take advantage of ES6 and ES7
 * Follow [Fractal Project Structure](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure)
