@@ -10,7 +10,7 @@ For demo visit http://13.126.151.86/
 * Babel is user for ES6 and ES7 code compilation
 * All development should take advantage of ES6 and ES7
 * Follow [Fractal Project Structure](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure)
-* Eslint Airbnb config is followed https://www.npmjs.com/package/eslint-config-airbnb]
+* Eslint Airbnb config is followed https://www.npmjs.com/package/eslint-config-airbnb
 ## Prerequisites
 
 * Installed [Git](http://git-scm.com/)
