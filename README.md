@@ -18,7 +18,7 @@ For demo visit http://13.126.151.86/
 
 ## Installation
 
-* `git clone https://github.com/PradeepJaiswar/open-table-exercise-frontend.git` this repository
+* `git clone https://github.com/PradeepJaiswar/event-based-service-example-frontend.git` this repository
 * change into the open-table-exercise-frontend directory
 * `npm install`
 
@@ -38,7 +38,7 @@ TODO
 
 ## Backend Services
 You also need to setup backend services require to connect to AWS S3 bucket, upload and resize.
-Follow https://github.com/PradeepJaiswar/open-table-exercise-backend for setting up  backend services
+Follow https://github.com/PradeepJaiswar/event-based-service-example for setting up  backend services
 
 
 
