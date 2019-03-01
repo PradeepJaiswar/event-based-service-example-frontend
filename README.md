@@ -2,9 +2,6 @@
 
 ### Client application fo uploading image on AWS S3 bucket and listing the resized images
 
-## Demo
-For demo visit http://13.126.151.86/
-
 ## Repository Practices
 
 * Babel is user for ES6 and ES7 code compilation
