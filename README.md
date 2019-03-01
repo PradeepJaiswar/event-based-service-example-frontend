@@ -1,4 +1,4 @@
-# Open Table Exercise Frontend
+# Event based service example
 
 ### Client application fo uploading image on AWS S3 bucket and listing the resized images
 
